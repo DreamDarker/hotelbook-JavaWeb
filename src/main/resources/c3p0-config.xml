@@ -2,13 +2,13 @@
 <c3p0-config>
     <named-config name="mysql">
 
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/hotelbook?characterEncoding=utf8&amp;useSSL=true</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/hotelbook?characterEncoding=utf8&amp;useSSL=true&amp;serverTimezone=GMT</property>
 
         <property name="driverClass">com.mysql.jdbc.Driver</property>
 
         <property name="user">root</property>
 
-        <property name="password">123456</property>
+        <property name="password">20171758</property>
 
         <property name="acquireIncrement">3</property>
 
